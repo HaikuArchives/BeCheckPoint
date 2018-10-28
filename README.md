@@ -1,6 +1,7 @@
 # BeCheckPoint v1.0.2
 ### 1/23/99, John Wiggins
 ![screenshot](screenshot1.png)
+
 BeCheckPoint is a login type application. When launched, it kills the Tracker and Deskbar, (and mail_daemon if its running). After killing off all the useful stuff :) you get a password prompt. You can't do much of anything until you enter your password (appropriately so :). After you enter a correct password, BeCheckPoint unkills everything it killed at startup and exits.
 
 The function that kills stuff is kinda rough if the Tracker is having problems, but I only saw these problems when the Tracker was trying to talk to a half-connected disk drive. If everything is cool though, BeCheckPoint should work like a charm. Please test it before you add it to your userbootscript. 
